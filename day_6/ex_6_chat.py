@@ -17,7 +17,6 @@ for col in range(width):
     transposed.append(
         "".join(line[col] for line in lines)
     )
-print(transposed)
 total = 0
 current_numbers = []
 current_operator = None
