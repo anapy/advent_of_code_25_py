@@ -9,7 +9,6 @@ coordinatesList = [
     tuple(map(int, line.strip().split(",")))
     for line in inputFile
 ]
-print(coordinatesList[:7])
 
 def calculateArea(x1, x2, y1, y2):
     width = abs(x2 - x1) + 1
