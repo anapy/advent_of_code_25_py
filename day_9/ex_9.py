@@ -21,6 +21,6 @@ for i in range(len(coordinatesList)):
     for j in range(i + 1, len(coordinatesList)):
         area = calculateArea(coordinatesList[i][0], coordinatesList[j][0],coordinatesList[i][1],coordinatesList[j][1])
         maxArea = max(maxArea, area)
-        print(coordinatesList[i], coordinatesList[j],area)
+        #print(coordinatesList[i], coordinatesList[j],area)
 
 print(maxArea)
